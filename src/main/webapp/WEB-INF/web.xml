@@ -46,6 +46,10 @@
   		<param-name>scan-package</param-name>
   		<param-value>kr.co.mlec</param-value>
   	</init-param>
+  	<init-param>
+  		<param-name>contextConfigLocation</param-name>
+  		<param-value>config/spring/context-common.xml</param-value>
+  	</init-param>
   </servlet>
   <servlet-mapping>
   	<servlet-name>dispatcher</servlet-name>
